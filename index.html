@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando la Gastronomía Global</title>
+    <meta name="description" content="Explora destinos gastronómicos alrededor del mundo">
+    <meta name="keywords" content="viajes, gastronomía, comida, destinos culinarios">
+    <style>
+        body {
+            background-image: url('fondo.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .content-box {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        p {
+            font-size: 18px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        .destination-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .destination-list-item {
+            flex-basis: calc(33.33% - 20px);
+            margin-bottom: 20px;
+        }
+        .destination-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .country-name {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 5px;
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-box">
+        <h1>Explorando la Gastronomía Global</h1>
+        <p>
+            Bienvenido a 'Explorando la Gastronomía Global', tu portal para un emocionante viaje culinario alrededor del planeta. Si eres un amante de la comida y te apasiona descubrir platos tradicionales exóticos, estás en el lugar correcto.
+        </p>
+        <p>
+            En esta página, te llevaremos a un viaje culinario virtual que te permitirá conocer la cultura, los ingredientes y tradiciones detrás de algunos de los destinos gastronómicos más destacados del mundo. Explora nuestros destinos y prepárate para despertar tus sentidos con la riqueza de la comida global. ¡Buen provecho!
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Destino</th>
+                    <th>Plato Emblemático</th>
+                    <th>Ubicación</th>
+                    <th>Platos Recomendados</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>México</td>
+                    <td>Tacos al pastor</td>
+                    <td>Ciudad de México</td>
+                    <td>Guacamole, enchiladas, tamales</td>
+                </tr>
+                <tr>
+                    <td>Tailandia</td>
+                    <td>Pad Thai</td>
+                    <td>Bangkok</td>
+                    <td>Som Tum, Tom Yum</td>
+                </tr>
+                <tr>
+                    <td>Italia</td>
+                    <td>Pasta carbonara</td>
+                    <td>Roma</td>
+                    <td>Pizza Margherita, gelato</td>
+                </tr>
+            </tbody>
+        </table>
+		<p>
+            Click en el nombre o bandera del pais para acceder a mas informacion detallada acerca de la ubicacion!
+        </p>
+        <ul class="destination-list">
+            <li class="destination-list-item">
+                <a href="ubicacion1.html">
+                    <img src="img1.jpg" alt="Imagen de México">
+                </a>
+                <a class="country-name" href="ubicacion1.html">México</a>
+            </li>
+            <li class="destination-list-item">
+                <a href="ubicacion2.html">
+                    <img src="img2.jpg" alt="Imagen de Tailandia">
+                </a>
+                <a class="country-name" href="ubicacion2.html">Tailandia</a>
+            </li>
+            <li class="destination-list-item">
+                <a href="ubicacion3.html">
+                    <img src="img3.jpg" alt="Imagen de Italia">
+                </a>
+                <a class="country-name" href="ubicacion3.html">Italia</a>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <div class="content-box">
+            <p>Tarea #3 de Diseño de Aplicaciones Web</p>
+            <p>Brian Josue Gonzalez Segura</p>
+            <p>2023</p>
+            <p>Todas las imágenes Brian</p>
+        </div>
+    </footer>
+</body>
+</html>
